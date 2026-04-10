@@ -1,0 +1,48 @@
+/*
+how to connecte the porject to github?
+*/
+ -1- git init: Initializes the git (only once)
+
+/*
+how to prefer the git init in the vesiual code?
+*/ 
+i go source-conrol => click "Initializes repository"
+     ==> this will create ".git": mean git tracking the porject
+         in case git deleted the porject will not be tracking any more !
+
+/*
+how would you save in the local repostery 
+*/
+ -2- git add . add the change to the staging area 
+          source-conrol --> click the + in the changes section"
+
+ ** in .gitignore we tell git to ignore or do not track the folders included
+
+ -3- git commit: saves the staging area changes to the local repository
+          source-conrol --> click "commit" button after enetring commit message
+
+ **How do you create connection between local repository and the server(git)?
+  we need to create a "Remote" to be able connecte between LR and server!
+
+** how do you know what change?
+ -4- git fetch and Pull: checks the change from remote repository and pull them into local repository
+       source-control --> click "..." of CHANGES --> fetch, then pull
+
+** how to switch between branch?
+ -5- git checkout: click on the name button left corner of vs code, then select the branch
+
+
+** what is the hooks folder for? 
+  allows us to create 
+
+
+
+# what is the qa-data-reader for? 
+ we use it to manage the test data.
+ and to manage the qa-data.json we need to create classes product  
+
+
+# the cucumber.cjs what is for? 
+  for configuring 
+  why its cjs? C:clasic class javascript 
+
