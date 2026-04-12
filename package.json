@@ -4,15 +4,15 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cucumber-js",
-    "test:tag": "npx cucumber-js --tags @SEP11-2",
-    "test:tag:dryrun": "npx cucumber-js --tags @sep11 --dry-run",
+    "test:tag": "npx cucumber-js --tags  @sep16",
+    "test:tag:dryrun": "npx cucumber-js --tags @sep16 --dry-run",
     "test:smoke": "npx cucumber-js --tags @smoke",
     "Mac-open:report": "open reports/cucumber-report.html",
     "Windows-open:report": "start reports/cucumber-report.html"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC", 
+  "license": "ISC",
   "description": "",
   "type": "module",
   "devDependencies": {
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@cucumber/cucumber": "^11.3.0",
+    "@faker-js/faker": "^10.4.0",
     "cucumber-html-reporter": "^7.2.0"
   }
 }
