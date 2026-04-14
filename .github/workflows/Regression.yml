@@ -46,7 +46,7 @@ jobs:
         run: |
           echo "SEP_USERNAME=${{ secrets.SEP_USERNAME }}" >> $GITHUB_ENV
           echo "SEP_PASSWORD=${{ secrets.SEP_PASSWORD }}" >> $GITHUB_ENV
-          echo "SEP_URL=${{ secrets.SEP_QA_URL }}" >> $GITHUB_ENV
+          echo "SEP_URL=${{ secrets.SEP_URL }}" >> $GITHUB_ENV
 
 
       # Running tests with Playwright (Cucumber integration)
